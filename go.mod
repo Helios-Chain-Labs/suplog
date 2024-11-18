@@ -1,4 +1,4 @@
-module github.com/InjectiveLabs/suplog
+module github.com/Helios-Chain-Labs/suplog
 
 go 1.15
 

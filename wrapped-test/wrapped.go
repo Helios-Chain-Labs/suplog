@@ -2,7 +2,7 @@
 package wrapped
 
 import (
-	log "github.com/InjectiveLabs/suplog"
+	log "github.com/Helios-Chain-Labs/suplog"
 )
 
 // TestWrapper is a primitive to test error logging from an extra

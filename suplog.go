@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	blobHook "github.com/InjectiveLabs/suplog/hooks/blob"
-	bugsnagHook "github.com/InjectiveLabs/suplog/hooks/bugsnag"
-	debugHook "github.com/InjectiveLabs/suplog/hooks/debug"
+	blobHook "github.com/Helios-Chain-Labs/suplog/hooks/blob"
+	bugsnagHook "github.com/Helios-Chain-Labs/suplog/hooks/bugsnag"
+	debugHook "github.com/Helios-Chain-Labs/suplog/hooks/debug"
 
 	"github.com/sirupsen/logrus"
-	"github.com/InjectiveLabs/suplog/stackcache"
+	"github.com/Helios-Chain-Labs/suplog/stackcache"
 )
 
 // NewLogger constructs a new suplogger.
@@ -93,7 +93,7 @@ const defaultStackSearchOffset = 1
 // reloadStackTraceCache allows to reload the stack trace reporter with new offset,
 // allowing to wrap suplogger into other funcs.
 func (l *suplogger) reloadStackTraceCache() {
-	l.stack = stackcache.New(defaultStackSearchOffset, l.stackTraceOffset, "github.com/InjectiveLabs/suplog")
+	l.stack = stackcache.New(defaultStackSearchOffset, l.stackTraceOffset, "github.com/Helios-Chain-Labs/suplog")
 }
 
 // addDefaultHooks initializes default hooks and additional hooks

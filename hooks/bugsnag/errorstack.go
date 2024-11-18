@@ -10,7 +10,7 @@ import (
 	"github.com/bugsnag/bugsnag-go/errors"
 	pkgerrors "github.com/pkg/errors"
 
-	"github.com/InjectiveLabs/suplog/stackcache"
+	"github.com/Helios-Chain-Labs/suplog/stackcache"
 )
 
 // ErrorWithStackFrames is acceptable by Bugsnag, it provides a convenient

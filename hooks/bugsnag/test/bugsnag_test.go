@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	bugsnagHook "github.com/InjectiveLabs/suplog/hooks/bugsnag"
+	bugsnagHook "github.com/Helios-Chain-Labs/suplog/hooks/bugsnag"
 
-	"github.com/InjectiveLabs/suplog"
+	"github.com/Helios-Chain-Labs/suplog"
 )
 
 func TestBugsnagHook(t *testing.T) {

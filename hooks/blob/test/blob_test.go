@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	blobHook "github.com/InjectiveLabs/suplog/hooks/blob"
+	blobHook "github.com/Helios-Chain-Labs/suplog/hooks/blob"
 
-	"github.com/InjectiveLabs/suplog"
+	"github.com/Helios-Chain-Labs/suplog"
 )
 
 func TestBlobHook(t *testing.T) {
